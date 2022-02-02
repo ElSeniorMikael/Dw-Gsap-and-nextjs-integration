@@ -1,0 +1,58 @@
+.container {
+  padding: 0 2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1rem;
+  border-bottom: 1px solid #121212;
+
+  svg {
+    max-height: 70px;
+  }
+}
+
+.example-box {
+  width: 100px;
+  aspect-ratio: 1;
+  margin-bottom: 1rem;
+}
+
+.example-box-1 {
+  background-color: orange;
+}
+
+.example-box-2-1 {
+  background-color: yellow;
+}
+
+.example-box-2-2 {
+  background-color: magenta;
+}
+
+.example-box-2-3 {
+  background-color: cyan;
+}
+
+.example-box-3 {
+  background-color: red;
+}
+
+.example-box-4 {
+  background-color: green;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-top: 2rem;
+
+  button {
+    margin-right: 1rem;
+    font-size: 18px;
+    padding: 0.25em 0.5em;
+  }
+}
